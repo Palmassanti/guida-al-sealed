@@ -94,3 +94,7 @@ footer {
   display: flex;
   justify-content: end;
 }
+
+a {
+  text-decoration: inherit;
+}
