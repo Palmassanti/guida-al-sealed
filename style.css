@@ -44,6 +44,9 @@ h2 {
   font-size: 2.1rem;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
 none {
 font-family: 'AccentFont', sans-serif;
 color: #000000;
@@ -97,4 +100,18 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+.text-box {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 8px;
+  max-width: 800px;
+  font-size: 0.95rem;
+}
+
+#toggleBox:checked + .text-box {
+  display: block;
 }
